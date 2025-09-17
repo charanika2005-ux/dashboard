@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sports Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Sidebar -->
+  <aside class="sidebar">
+    <div class="profile">
+      <img src="https://via.placeholder.com/80" alt="Profile">
+      <h3>Alex Morgan</h3>
+      <p>alexm@sports.com</p>
+    </div>
+    <nav>
+      <ul>
+        <li class="active">🏠 Dashboard</li>
+        <li>📊 Analytics</li>
+        <li>📅 Matches</li>
+        <li>⚙️ Settings</li>
+      </ul>
+    </nav>
+  </aside>
+
+  <!-- Main Content -->
+  <main>
+    <header>
+      <h2>Hello, Alex</h2>
+      <p>Today is Monday, 16 September 2025</p>
+      <button class="btn">➕ Add New Match</button>
+    </header>
+
+    <!-- Sports Cards -->
+    <section class="cards">
+      <div class="card purple">
+        <h3>Football Training</h3>
+        <p>10 sessions · 85% complete</p>
+        <div class="progress"><div style="width:85%"></div></div>
+      </div>
+      <div class="card teal">
+        <h3>Basketball League</h3>
+        <p>12 matches · 40% complete</p>
+        <div class="progress"><div style="width:40%"></div></div>
+      </div>
+      <div class="card orange">
+        <h3>Cricket Tournament</h3>
+        <p>20 matches · 70% complete</p>
+        <div class="progress"><div style="width:70%"></div></div>
+      </div>
+    </section>
+
+    <!-- Tasks & Stats -->
+    <section class="tasks-stats">
+      <div class="tasks">
+        <h3>Today's Tasks</h3>
+        <ul>
+          <li><input type="checkbox"> Warm-up drills</li>
+          <li><input type="checkbox"> Strategy meeting</li>
+          <li><input type="checkbox" checked> Team practice</li>
+        </ul>
+      </div>
+
+      <div class="stats">
+        <h3>Statistics</h3>
+        <div class="stat-box">⏱️ 15h<br><span>Training Time</span></div>
+        <div class="stat-box">✅ 25<br><span>Completed Tasks</span></div>
+        <div class="stat-box">⚽ 8<br><span>Matches Played</span></div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Calendar -->
+  <aside class="calendar">
+    <h3>Calendar</h3>
+    <ul>
+      <li><b>Sep 16</b> · 🏀 Basketball Match - 6:00 PM</li>
+      <li><b>Sep 17</b> · ⚽ Football Training - 10:00 AM</li>
+      <li><b>Sep 18</b> · 🏏 Cricket Match - 3:00 PM</li>
+    </ul>
+  </aside>
+</body>
+</html>
